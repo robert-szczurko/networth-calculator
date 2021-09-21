@@ -1,0 +1,118 @@
+.start-container {
+  background-color: #f8f8f8;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  position: fixed;
+}
+
+.start-inner-container {
+  padding: 100px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+  width: 30%;
+}
+
+.start-inner-container h2 {
+  margin-bottom: 50px;
+}
+
+.start-btns {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.start-input-bottom {
+  display: flex;
+  margin-top: 50px;
+}
+
+.start-summary-item-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-summary-item-bottom p {
+  margin: 0 10px;
+}
+
+.start-summary-item {
+  margin: 15px 0;
+}
+
+.start-inputs-page-content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+}
+
+.input-row {
+  display: flex;
+}
+
+.input-long {
+  width: 100%;
+}
+
+.pages {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.page {
+  transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  background: white;
+}
+
+#page1 {
+  z-index: 5;
+}
+#page2 {
+  z-index: 4;
+}
+#page3 {
+  z-index: 3;
+}
+#page4 {
+  z-index: 2;
+}
+#page5 {
+  z-index: 1;
+}
+
+.page-hide {
+  width: 0;
+  opacity: 0;
+}
+
+.inputs-top img {
+  height: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .inputs-top h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .start-inputs-page-inner-container {
+    margin-top: 20px;
+  }
+}

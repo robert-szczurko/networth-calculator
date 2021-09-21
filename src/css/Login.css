@@ -1,0 +1,40 @@
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-inner-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-inner-container img {
+  width: 40%;
+}
+
+.login-inner-container h2 {
+  margin-bottom: 80px;
+  letter-spacing: 15px;
+  font-size: 45px;
+  font-weight: 400;
+  color: rgb(54, 54, 54);
+}
+
+.MuiButtonBase-root {
+  color: rgb(0 159 209);
+  border: 1px solid rgb(0 159 209);
+}
+
+@media screen and (max-width: 1000px) {
+  .login-inner-container h2 {
+    font-size: 20px;
+    letter-spacing: 10px;
+  }
+}

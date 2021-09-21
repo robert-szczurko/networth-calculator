@@ -1,0 +1,82 @@
+.liabilities {
+  flex: 1;
+  background-color: #f8f8f8;
+  margin-top: 80px;
+  overflow-y: scroll;
+  display: flex;
+  width: 100%;
+
+  justify-content: center;
+}
+.liabilities-container {
+  margin: 40px;
+  max-width: 1900px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.liabilities-column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  min-width: 350px;
+}
+
+.liabilities-top {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.liabilities-mid {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.liabilities-mid .card {
+  padding: 20px 50px;
+}
+
+.liabilities-graph {
+  width: 80%;
+  min-width: 250px;
+  height: 400px;
+  margin-top: 40px;
+}
+
+.liability-item {
+  height: 150px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  color: #0b2559;
+}
+
+.liability-item p {
+  font-size: 25px;
+  margin-left: 30px;
+  letter-spacing: 1px;
+}
+
+.liability-item h3 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 35px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .liabilities-graph {
+    height: 230px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .liabilities-mid .card {
+    padding: 5px 10px;
+  }
+}

@@ -1,0 +1,13 @@
+.savings {
+  flex: 1;
+  background-color: #f8f8f8;
+  margin-top: 80px;
+  overflow-y: scroll;
+}
+.savings-container {
+  margin: 40px;
+}
+
+.savings-container .card {
+  padding: 20px 50px;
+}
